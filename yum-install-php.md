@@ -72,6 +72,7 @@ php72w-devel.x86_64 : Files needed for building PHP extensions
 
 
 php72w-embedded.x86_64 : PHP library for embedding in applications
+
 php72w-enchant.x86_64 : Enchant spelling extension for PHP applications
 >php72w-fpm.x86_64 : PHP FastCGI Process Manager
 
@@ -79,8 +80,10 @@ php72w-enchant.x86_64 : Enchant spelling extension for PHP applications
 
 php72w-imap.x86_64 : A module for PHP applications that use IMAP
 php72w-interbase.x86_64 : A module for PHP applications that use Interbase/Firebird databases
+
 php72w-intl.x86_64 : Internationalization extension for PHP applications
 php72w-ldap.x86_64 : A module for PHP applications that use LDAP
+
 php72w-mbstring.x86_64 : A module for PHP applications which need multi-byte string handling
 >php72w-mysql.x86_64 : A module for PHP applications that use MySQL databases
 
@@ -97,6 +100,7 @@ php72w-odbc.x86_64 : A module for PHP applications that use ODBC databases
 
 php72w-pecl-apcu.x86_64 : APCu - APC User Cache
 php72w-pecl-apcu-devel.x86_64 : APCu developer files (header)
+
 php72w-pecl-geoip.x86_64 : Extension to map IP addresses to geographic places
 
 >php72w-pecl-igbinary.x86_64 : Replacement for the standard PHP serializer
@@ -106,19 +110,27 @@ php72w-pecl-igbinary-devel.x86_64 : Igbinary developer files (header)
 >php72w-pecl-imagick.x86_64 : Provides a wrapper to the ImageMagick library
 
 php72w-pecl-imagick-devel.x86_64 : Imagick developer files (header)
+
 php72w-pecl-libsodium.x86_64 : Wrapper for the Sodium cryptographic library
+
 php72w-pecl-memcached.x86_64 : Extension to work with the Memcached caching daemon
 
 >php72w-pecl-mongodb.x86_64 : PECL package MongoDB driver
 
 php72w-pecl-redis.x86_64 : Extension for communicating with the Redis key-value store
+
 php72w-pecl-xdebug.x86_64 : PECL package for debugging PHP scripts
 php72w-pgsql.x86_64 : A PostgreSQL database module for PHP
+
 php72w-phpdbg.x86_64 : Interactive PHP debugger
 php72w-process.x86_64 : Modules for PHP script using system process interfaces
+
 php72w-pspell.x86_64 : A module for PHP applications for using pspell interfaces
+
 php72w-recode.x86_64 : A module for PHP applications for using the recode library
+
 php72w-snmp.x86_64 : A module for PHP applications that query SNMP-managed devices
+
 php72w-soap.x86_64 : A module for PHP applications that use the SOAP protocol
 
 
@@ -276,7 +288,8 @@ yum安装软件，使用者不需要指定安装目录，也就是说没法控�
 
 而我们需要理解的是yum的使用套路，首先使用search 命令找到合适的源，然后安装，寻找配置文件，启动服务。运行过程中，有修改，再针对性的安装或者调整。
 
-对于centos7 管理软件服务的不同，就像这篇文章中（https://blog.csdn.net/u012834750/article/details/80501440）提到的，centos7中的命令大变样，会不会觉得之前学习的命令都用不上了，使用者总是得拥抱变化，学习新的方式，所以说命令总是记不完的，对于新东西，学习要抓住核心本质。
+对于centos7 管理软件服务的不同，就像这篇文章中（https://blog.csdn.net/u012834750/article/details/80501440）
+提到的，centos7中的命令大变样，会不会觉得之前学习的命令都用不上了，使用者总是得拥抱变化，学习新的方式，所以说命令总是记不完的，对于新东西，学习要抓住核心本质。
 
 end 2019年9月21 
 610212129@qq.com
