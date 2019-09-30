@@ -34,6 +34,8 @@ These are many ways for impving performance of MongoDB Appliction，  shoud file
 
 以下图【前后端深度分离】的系统开发模式为例，假设node程序开发的一些功能需要借助MongoDB存储，而其中的部分数据需要借助Java的API接口提供，我们可以理解 Node层也是一个业务层，起到承上启下的作用。也就是我之前文章中提到的BFF层。
 
+![前后端分离.png](https://upload-images.jianshu.io/upload_images/5651-1ff64aec4b8c1bbb.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 这一层基于外部接口做业务，业务数据持久化到MongoDB，那么在node程序层面就会出现如何将业务变量的命名字段和MongoDB数据库集合的字段相互对应，转化和存储的问题。
 
 
